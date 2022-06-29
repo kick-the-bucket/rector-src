@@ -65,9 +65,6 @@ return static function (RectorConfig $rectorConfig): void {
             __DIR__ . '/rules/DowngradePhp74/Rector/Array_/DowngradeArraySpreadRector.php',
         ],
 
-        MyCLabsClassToEnumRector::class,
-        SpatieEnumClassToEnumRector::class,
-
         // tests
         '**/Fixture*',
         '**/Fixture/*',
